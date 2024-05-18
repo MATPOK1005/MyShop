@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/cartadapter_image"
+        android:layout_width="180sp"
+        android:layout_height="180sp"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="Item image"
+        />
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/cartadapter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="200dp"
+            android:maxHeight="100dp"
+            android:text="Item name"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/cartadapter_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cartadapter_name"
+            android:maxWidth="200dp"
+            android:maxHeight="100dp"
+            android:text="Item price"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/cartadapter_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cartadapter_price"
+            android:maxWidth="200dp"
+            android:maxHeight="100dp"
+            android:text="Item price"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/cartadapter_total"
+            android:layout_below="@id/cartadapter_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="200dp"
+            android:maxHeight="100dp"
+            android:text="Item name"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <ImageButton
+            android:id="@+id/cartadapter_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_delete_forever_24"
+            android:layout_alignParentRight="true"
+             />
+
+    </RelativeLayout>
+</LinearLayout>

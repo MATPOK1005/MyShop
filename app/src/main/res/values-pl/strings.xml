@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyShop</string>
+
+
+    <string name="name">nazwa</string>
+    <string name="description">opis</string>
+    <string name="id">id</string>
+    <string name="seller">sprzedawca</string>
+</resources>

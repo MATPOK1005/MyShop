@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/ordersadapter_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER ID"
+        android:textStyle="bold"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/ordersadapter_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ordersadapter_id"
+        android:text="ORDER DATE"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/ordersadapter_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ordersadapter_date"
+        android:text="ORDER ITEMS"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/ordersadapter_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ordersadapter_items"
+        android:text="ORDER ADDRESS"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/ordersadapter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ordersadapter_address"
+        android:text="ORDER NAME"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/ordersadapter_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ordersadapter_name"
+        android:text="ORDER PRICE"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

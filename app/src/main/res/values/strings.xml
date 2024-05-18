@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">MyShop</string>
+
+    <string name="welcome">Welcome in MyShop</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="unsuccesfull_login">Couldn\'t log in</string>
+    <string name="unsuccesfull_register">Couldn\'t register</string>
+
+    <string name="search">Search</string>
+    <string name="no_items">No items found :(</string>
+
+    <string name="name">name</string>
+    <string name="description">description</string>
+    <string name="id">id</string>
+    <string name="seller">seller</string>
+
+    <string name="cart">Cart</string>
+    <string name="my_orders">My orders</string>
+    <string name="info">Info</string>
+    <string name="author">Author</string>
+    <string name="logout">Logout</string>
+
+    <string name="add_to_cart">Add to cart</string>
+    <string name="go_to_cart">Go to cart</string>
+    <string name="in_stock">In stock:</string>
+    <string name="already_in_cart">Item is alredy in cart</string>
+
+    <string name="amount">Amount:</string>
+    <string name="total">Total:</string>
+
+    <string name="buy">Buy</string>
+
+    <string name="full_name">Full name:</string>
+    <string name="address">Mailing address:</string>
+    <string name="contact">Contact:</string>
+    <string name="email">Email:</string>
+    <string name="phone">Phone number:</string>
+    <string name="and_or">and/or</string>
+
+    <string name="purchase_success">Purchuse seuccessfull!</string>
+
+    <string name="message">Thanks for making a purchase in our shop!\nYour order details are:\ndate: %s\nname: %s\naddress: %s\nprice: %s zł</string>
+
+    <string name="date">Date:</string>
+    <string name="address2">Address:</string>
+    <string name="name2">Name:</string>
+    <string name="price">Price:</string>
+    <string name="items">Items:</string>
+
+</resources>

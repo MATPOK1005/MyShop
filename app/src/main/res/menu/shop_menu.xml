@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    TODO: add icons-->
+    <item
+        android:id="@+id/menushop_cart"
+        android:title="@string/cart" />
+    <item
+        android:id="@+id/menushop_orders"
+        android:title="@string/my_orders" />
+    <item
+        android:id="@+id/menushop_info"
+        android:title="@string/info" />
+    <item
+        android:id="@+id/menushop_logout"
+        android:title="@string/logout" />
+</menu>
